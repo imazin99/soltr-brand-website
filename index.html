@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SOLTR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+
+    <div class="nav-left">
+        <div class="theme-switch">
+            <span class="moon">🌙</span>
+            <label class="switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider"></span>
+            </label>
+            <span class="sun">☀️</span>
+        </div>
+    </div>
+
+    <div class="logo">SOLTR</div>
+
+    <div class="nav-right">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="cart">
+    🛒 <span id="cart-count">0</span>
+
+    <div id="miniCart">
+        <ul id="cartItems"></ul>
+        <p id="cartTotal"></p>
+        <a href="checkout.html" target="_blank">
+  <button>Checkout</button>
+</a>
+    </div>
+</div>
+    </div>
+
+</nav>
+
+    <section class="hero">
+        <h1>SOLTR</h1>
+        <p>Built From Silence</p>
+        <button>Shop Now</button>
+    </section>
+
+   <section class="products reveal">
+  <h2 class="section-title">Latest Drop</h2>
+
+  <div class="products-grid">
+
+    <!-- Product 1 -->
+    <div class="product-card">
+    <div class="image-container">
+
+        <span class="arrow left">&#10094;</span>
+
+        <img class="product-img"
+             src="black face.JPG"
+             data-front="black face.JPG"
+             data-back="black-back.JPG">
+
+        <span class="arrow right">&#10095;</span>
+    </div>
+
+    <h3>919</h3>
+    <p class="price">650 EGP</p>
+
+    <button 
+      class="add-to-cart" 
+      data-name="Black Hoodie" 
+      data-price="650">
+      Add To Cart
+    </button>
+</div>
+
+    <!-- Product 2 -->
+     <div class="product-card">
+    <div class="image-container">
+        <div class="image-box">
+  <img src="burgundy.jpg" alt="">
+</div>
+        <span class="arrow left">&#10094;</span>
+
+        <img class="product-img"
+             src="burgendy-face.JPG"
+             data-front="burgendy-face.JPG"
+             data-back="burgendy-back.JPG">
+
+        <span class="arrow right">&#10095;</span>
+    </div>
+
+    <h3>shining</h3>
+    <p class="price">670 EGP</p>
+   <button 
+  class="add-to-cart" 
+  data-name="Burgendy T-Shirt" 
+  data-price="670">
+  Add To Cart
+</button>
+</div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+    <div class="image-container">
+         <div class="image-box">
+  <img src="trust.jpg" alt="">
+</div>
+        <span class="arrow left">&#10094;</span>
+
+        <img class="product-img"
+             src="trust-face.JPG"
+             data-front="trust-face.JPG"
+             data-back="trust-back.JPG">
+
+        <span class="arrow right">&#10095;</span>
+    </div>
+
+    <h3>Trust Hoodie</h3>
+    <p class="price">650 EGP</p>
+    <button 
+  class="add-to-cart" 
+  data-name="Trust T-Shirt" 
+  data-price="650">
+  Add To Cart
+</button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+  <div class="image-container">
+
+    <span class="arrow left">&#10094;</span>
+
+    <img class="product-img"
+         src="suit1.JPG"
+         data-front="suit1.JPG"
+         data-back="suit2.JPG">
+
+    <span class="arrow right">&#10095;</span>
+  </div>
+
+  <h3>Suit</h3>
+  <p class="price">890 EGP</p>
+
+  <button 
+    class="add-to-cart" 
+    data-name="Suit Hoodie" 
+    data-price="890">
+    Add To Cart
+  </button>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+  <div class="image-container">
+
+    <span class="arrow left">&#10094;</span>
+
+    <img class="product-img"
+         src="77.JPG"
+         data-images="77.JPG,772.JPG,773.JPG">
+
+    <span class="arrow right">&#10095;</span>
+  </div>
+
+  <h3>london-city</h3>
+  <p class="price">700 EGP</p>
+
+  <button 
+    class="add-to-cart" 
+    data-name="77 Hoodie" 
+    data-price="700">
+    Add To Cart
+  </button>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+  <div class="image-container">
+
+    <img class="product-img"
+         src="round.JPG">
+
+  </div>
+
+  <h3>Round Hoodie</h3>
+  <p class="price">550 EGP</p>
+
+  <button 
+    class="add-to-cart" 
+    data-name="Round Hoodie" 
+    data-price="500">
+    Add To Cart
+  </button>
+    </div>
+
+  </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
