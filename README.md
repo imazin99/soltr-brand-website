@@ -24,6 +24,9 @@ https://imazin99.github.io/soltr-brand-website
 index.html
 style.css
 script.js
+checkout.html
+checkout.css
+checkout.js
 /images
 
 ## 🎯 Purpose
