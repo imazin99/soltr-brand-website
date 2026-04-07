@@ -10,6 +10,7 @@ A modern and stylish clothing brand website built as a frontend project.
 - Clean and modern UI
 - Product showcase section
 - Smooth user experience
+- Not Complete , only a little remains
 
 ## 🛠️ Technologies Used
 - HTML5
